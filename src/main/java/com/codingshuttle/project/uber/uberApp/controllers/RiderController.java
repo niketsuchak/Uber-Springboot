@@ -46,5 +46,4 @@ public class RiderController {
                 Sort.by(Sort.Direction.DESC, "createdTime", "id"));
         return ResponseEntity.ok(riderService.getAllMyRides(pageRequest));
     }
-//    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
 }
